@@ -4,9 +4,9 @@
   "version": "0.2.7",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node init && vite",
     "desktop": "tauri dev",
-    "build": "vite build",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "typecheck:ci": "tsc --noEmit --checkJs false",
